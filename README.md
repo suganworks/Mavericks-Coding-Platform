@@ -89,3 +89,5 @@ Install all dependencies:
 
 ```bash
 pip install requests python-dotenv PyPDF2 python-docx
+
+In case of AI not working, get your own API key from google gemini
