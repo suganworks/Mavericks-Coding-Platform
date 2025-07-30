@@ -89,5 +89,9 @@ Install all dependencies:
 
 ```bash
 pip install requests python-dotenv PyPDF2 python-docx
+```
+In case the AI features are not working, make sure you’ve added your own Google Gemini API key.
+Get one from https://makersuite.google.com/app/apikey
+Then, add it to the .env file in this format:
 
-In case of AI not working, get your own API key from google gemini
+GEMINI_API_KEY="your_api_key_here"
